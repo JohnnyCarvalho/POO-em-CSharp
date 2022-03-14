@@ -6,7 +6,8 @@ namespace POO_em_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Word!");
+            String color = "\u001B[";
+            Console.WriteLine(color+"32"+"m"+"Hello Word!"+color+"m");
         }
     }
 }
