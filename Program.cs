@@ -7,7 +7,8 @@ namespace POO_em_C_
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.Write("Escreva seu nome: ");Console.ReadLine();
+            Console.Write("Escreva seu nome: ");String nome = Console.ReadLine();
+            Console.WriteLine("Seu nome é "+nome);
         }
     }
 }
