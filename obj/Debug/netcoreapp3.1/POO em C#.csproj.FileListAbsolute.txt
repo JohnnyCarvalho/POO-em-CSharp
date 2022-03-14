@@ -11,3 +11,16 @@ C:\Users\jhonn\POO em C#\obj\Debug\netcoreapp3.1\POO em C#.csproj.CoreCompileInp
 C:\Users\jhonn\POO em C#\obj\Debug\netcoreapp3.1\POO em C#.dll
 C:\Users\jhonn\POO em C#\obj\Debug\netcoreapp3.1\POO em C#.pdb
 C:\Users\jhonn\POO em C#\obj\Debug\netcoreapp3.1\POO em C#.genruntimeconfig.cache
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.exe
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.deps.json
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.runtimeconfig.json
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.runtimeconfig.dev.json
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.dll
+C:\Users\jhonn\POO-em-CSharp\bin\Debug\netcoreapp3.1\POO em C#.pdb
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.csprojAssemblyReference.cache
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.AssemblyInfoInputs.cache
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.AssemblyInfo.cs
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.csproj.CoreCompileInputs.cache
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.dll
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.pdb
+C:\Users\jhonn\POO-em-CSharp\obj\Debug\netcoreapp3.1\POO em C#.genruntimeconfig.cache

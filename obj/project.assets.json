@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhonn\\POO em C#\\POO em C#.csproj",
+      "projectUniqueName": "C:\\Users\\jhonn\\POO-em-CSharp\\POO em C#.csproj",
       "projectName": "POO em C#",
-      "projectPath": "C:\\Users\\jhonn\\POO em C#\\POO em C#.csproj",
+      "projectPath": "C:\\Users\\jhonn\\POO-em-CSharp\\POO em C#.csproj",
       "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhonn\\POO em C#\\obj\\",
+      "outputPath": "C:\\Users\\jhonn\\POO-em-CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
