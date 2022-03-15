@@ -1,5 +1,6 @@
 using System;
 using System.Globalization;
+using System.Collections.Generic;
 
 namespace POO_em_C_
 {
@@ -8,7 +9,7 @@ namespace POO_em_C_
         //atributes
         private int tipo, codigo, tempoContrato;
         private double salarioBase;
-        public ArraySegment<Dependente> dependentes = new ArraySegment<Dependente>();// Lista para incluir os dependentes na classe Dependente
+        public List<Dependente> dependentes = new List<Dependente>();// Lista para incluir os dependentes na classe Dependente
 
         //cosntrutores
         public FuncionarioGeral(){
@@ -52,10 +53,7 @@ namespace POO_em_C_
         }
 
         // Método de incluir a cada funcionário um dependente, o mesmo também terá a função de conferir se a quantidade não excede o limite permitido.
-
-        
-
-       /* public Boolean incluirDependente(Dependente quant){
+       public Boolean incluirDependente(Dependente quant){
             if (dependentes.Count>=5){
                 return false;
             }
@@ -65,11 +63,19 @@ namespace POO_em_C_
             else if(this.Tipo==2&&quant.Idade>18){
                 return false;
             }
-            else {
-                dependentes.add(quant);
+            else 
+                dependentes.Add(quant);
                 return true;
-            }
-        }*/
+            
+        }
+
+        public void saidaDeDados() {
+            Console.WriteLine("Tipo: "+this.tipo);
+            Console.WriteLine("Código: "+this.codigo);
+            Console.WriteLine("Tempo de contrataçã: "+this.tempoContrato);
+            Console.WriteLine(String.Format("Salário base: R$ "+"%.2f"+this.salarioBase));
+            
+        }
 
     }
 }
