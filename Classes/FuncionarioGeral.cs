@@ -23,22 +23,22 @@ namespace POO_em_C_
         }
 
         //método de incrementação e encapsulamento
-        public int Tipo{
+        public virtual int Tipo{
             get{return tipo;}
             set{Tipo=this.tipo;}
         }
 
-        public int Codigo {
+        public virtual int Codigo {
             get{return codigo;}
             set{Codigo=this.codigo;}
         }
 
-        public int TempoContrato {
+        public virtual int TempoContrato {
             get{return tempoContrato;}
             set{TempoContrato=this.tempoContrato;}
         }
 
-        public double SalarioBase {
+        public virtual double SalarioBase {
             get{return salarioBase;}
             set{SalarioBase=this.salarioBase;}
 
