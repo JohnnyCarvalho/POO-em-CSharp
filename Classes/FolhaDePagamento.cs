@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using System.Collections.Generic;
 
 namespace POO_em_C_
 {
@@ -6,8 +8,11 @@ namespace POO_em_C_
     {
         static void Main(string[] args)
         {
-            String color = "\u001B[";
-            Console.WriteLine(color+"32"+"m"+"Hello Word!"+color+"m");
+            String colorGlobal = "\u001B[";
+
+            
+            
+            
         }
     }
 }
