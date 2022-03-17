@@ -6,6 +6,8 @@ namespace POO_em_C_
 {
     class FuncionarioGeral
     {
+        public String colorGlobal = "\u001B[";// função que muda a cor da letra no console.
+        
         //atributes
         private int tipo, codigo, tempoContrato;
         private double salarioBase;

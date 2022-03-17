@@ -7,7 +7,6 @@ namespace POO_em_C_
     class FuncionarioConcursado : FuncionarioGeral //Herda da classe mãe FuncionarioGeral
     {
         // método que muda a cor das letras no prompt
-        String color = "\u001B["; // função que muda a cor da letra no console.
 
         //metodos cosntrutores
         public FuncionarioConcursado(int tipo, int codigo, int tempoContrato, double salarioBase) {
@@ -25,13 +24,24 @@ namespace POO_em_C_
 
         public void saidaDeDados(){
             Console.WriteLine();
-            Console.WriteLine(color+"36"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO CONCURSADO *****"+color+"m");
+            Console.WriteLine(colorGlobal+"36"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO CONCURSADO *****"+colorGlobal+"m");
             base.saidaDeDados();
             Console.WriteLine(String.Format("Salário mensal: R$ "+"%.2f", SalarioMensal()));
             Console.WriteLine("Quantidade de dependentes: "+dependentes.Count);
-            /*for (Dependente dependente = this.dependentes) {
+            foreach (Dependente dependente in dependentes)
+            {
                 Console.WriteLine("Idade dependente: ["+dependente.idade+"]");
-            }*/
+                
+            }
+            double cauculaSalario = 0;
+            foreach (Dependente dependente in this.dependentes)
+            {
+                cauculaSalario = cauculaSalario*dependentes.Count;
+                
+            }
+            Console.Write("Salário mensal atualizado é: R$ ");
+            Console.WriteLine(colorGlobal+"32"+"m"+String.Format("%.2f", salarioNovo())+colorGlobal+"m");
+            Console.WriteLine();
 
         }
         
