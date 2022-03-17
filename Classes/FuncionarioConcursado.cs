@@ -14,7 +14,7 @@ namespace POO_em_C_
             
         }
 
-        public /*override*/ Double SalarioMensal(){
+        new public /*override*/ Double SalarioMensal(){
             return base.SalarioBase+base.TempoContrato*200;
         }
 
@@ -22,7 +22,7 @@ namespace POO_em_C_
             return (base.SalarioMensal()+dependentes.Count*100);
         }
 
-        public void saidaDeDados(){
+        new public void saidaDeDados(){
             Console.WriteLine();
             Console.WriteLine(colorGlobal+"36"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO CONCURSADO *****"+colorGlobal+"m");
             base.saidaDeDados();

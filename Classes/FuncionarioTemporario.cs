@@ -9,7 +9,7 @@ namespace POO_em_C_
 
         }
 
-        public Double SalarioMensal()
+        new public Double SalarioMensal()
         {
             return base.SalarioBase+base.TempoContrato*15;
         }
@@ -17,7 +17,7 @@ namespace POO_em_C_
         {
             return SalarioMensal()+dependentes.Count*50;
         }
-        public void saidaDeDados()
+        new public void saidaDeDados()
         {
             Console.WriteLine();
             Console.WriteLine(colorGlobal+"32"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO TEMPORÁRIO *****"+colorGlobal+"m");
