@@ -20,9 +20,9 @@ namespace POO_em_C_
         new public void saidaDeDados()
         {
             Console.WriteLine();
-            Console.WriteLine(colorGlobal+"32"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO TEMPORÁRIO *****"+colorGlobal+"m");
+            Console.WriteLine(colorGlobal+"32"+"m"+"***** FUNCIONÁRIO TEMPORÁRIO *****"+colorGlobal+"m");
             base.saidaDeDados();
-            Console.WriteLine(String.Format("Salário mensal: R$"+"%.2f", SalarioMensal()));
+            Console.WriteLine("Salário mensal: R$"+"%.2f", SalarioMensal().ToString("F"));
             Console.WriteLine("Quantidade de dependentes: ["+dependentes.Count+"]");
 
             foreach (Dependente dependente in dependentes)
@@ -35,7 +35,7 @@ namespace POO_em_C_
                 cauculaSalario = cauculaSalario*dependentes.Count;
             }
             Console.WriteLine("Salário mensal atualizado é de: R$ ");
-            Console.WriteLine(colorGlobal+"32"+"m"+String.Format("%.2f", salarioNovo())+colorGlobal+"m");
+            Console.WriteLine(colorGlobal+"32"+"m"+("%.2f", salarioNovo().ToString("F"))+colorGlobal+"m");
             Console.WriteLine();
         }
     }

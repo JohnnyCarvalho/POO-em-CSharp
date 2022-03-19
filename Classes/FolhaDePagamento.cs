@@ -31,6 +31,7 @@ namespace POO_em_C_
 
                 Console.Write("Tipo: ");
                 int tipo = int.Parse(Console.ReadLine());
+                
 
                 /*
                 Nesse ponto, o código que o usuário vai inserir é um ID, ou seja, é único, por esse motivo essa parte tem que ser tratada para não correr o risco de duplicidade no ID, ou seja, duas pessoas terem o mesmo ID.

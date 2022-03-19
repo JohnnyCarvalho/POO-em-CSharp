@@ -22,11 +22,11 @@ namespace POO_em_C_
             return (base.SalarioMensal()+dependentes.Count*100);
         }
 
-        new public void saidaDeDados(){
+        public override void saidaDeDados(){
             Console.WriteLine();
-            Console.WriteLine(colorGlobal+"36"+"m"+"***** ENTRE COM OS DADOS DO FUNCIONÁRIO CONCURSADO *****"+colorGlobal+"m");
+            Console.WriteLine(colorGlobal+"36"+"m"+"***** FUNCIONÁRIO CONCURSADO *****"+colorGlobal+"m");
             base.saidaDeDados();
-            Console.WriteLine(String.Format("Salário mensal: R$ "+"%.2f", SalarioMensal()));
+            Console.WriteLine("Salário mensal: R$ ", SalarioMensal().ToString("F"));
             Console.WriteLine("Quantidade de dependentes: "+dependentes.Count);
             foreach (Dependente dependente in dependentes)
             {
@@ -40,7 +40,7 @@ namespace POO_em_C_
                 
             }
             Console.Write("Salário mensal atualizado é: R$ ");
-            Console.WriteLine(colorGlobal+"32"+"m"+String.Format("%.2f", salarioNovo())+colorGlobal+"m");
+            Console.WriteLine(colorGlobal+"32"+"m", salarioNovo().ToString("F")+colorGlobal+"m");
             Console.WriteLine();
 
         }

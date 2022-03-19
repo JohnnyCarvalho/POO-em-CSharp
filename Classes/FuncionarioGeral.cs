@@ -71,11 +71,11 @@ namespace POO_em_C_
             
         }
 
-        public void saidaDeDados() {
+        public virtual void saidaDeDados() {
             Console.WriteLine("Tipo: "+this.tipo);
             Console.WriteLine("Código: "+this.codigo);
             Console.WriteLine("Tempo de contrataçã: "+this.tempoContrato);
-            Console.WriteLine(String.Format("Salário base: R$ "+"%.2f"+this.salarioBase));
+            Console.WriteLine("Salário base: R$ "+this.salarioBase.ToString("F"));
             
         }
 
